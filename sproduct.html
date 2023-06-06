@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scout shop</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="agr.css">
+</head>
+<body>
+      <section id="header">
+        <h2 class="logo">🛍️Scout Shop</h2>
+       
+        </div>
+            <ul id="navbar">
+                <li><a href="agr.html">HOME</a></li>
+                <li><a class="active" href="shop.html">SHOP</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="cart.html"><i class="fa-regular fa-bag-shopping"></i></a></li> 
+            </ul>
+         </div>
+      </section>
+      <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="shirt.jpg"  width="100%" id="MainImg" alt="">
+            <div class="small-img-group">
+                <div class="small-img-color">
+                    <img src="shirt.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-color">
+                    <img src="back shirt.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-color">
+                    <img src="shirt 2-1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-color">
+                    <img src="shirt 2-2.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6>Home/Shirt</h6>
+            <h4>Shirt</h4>
+            <h2>$30</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>L</option>
+                <option>M</option>
+                <option>S</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add to cart</button>
+        </div>
+        
+      </section>
+      <section id="product1" class="section-p1">
+           <h2> other products</h2>
+       
+        <div class="pro-container">
+           
+            <div class="pro">
+                <img src="hatt_1.jpg" class="tof" alt="">
+                 <div class="des">
+                   
+                   <h5>Hat</h5>
+                   <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                   </div>
+                   <h4>$20</h4>
+                   <a href="#"><i class="fal fa-shopping-cart"></i></a>
+                 </div>
+            </div>
+            <div class="pro">
+                <img src="jup.jpg" class="tof" alt="">
+                 <div class="des">
+                   
+                   <h5>Skirt</h5>
+                   <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                   </div>
+                   <h4>$35</h4>
+                   <a href="#"><i class="fal fa-shopping-cart"></i></a>
+                 </div>
+            </div>
+            <div class="pro">
+                <img src="serwl.jpg" class="tof" alt="">
+                 <div class="des">
+                   
+                   <h5>Trousers</h5>
+                   <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                   </div>
+                   <h4>$25</h4>
+                   <a href="#"><i class="fal fa-shopping-cart"></i></a>
+                 </div>
+            </div>
+            <div class="pro">
+                <img src="belt.jpg" class="tof" alt="">
+                 <div class="des">
+                   
+                   <h5>Belt</h5>
+                   <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                   </div>
+                   <h4>$9.99</h4>
+                   <a href="#"><i class="fal fa-shopping-cart"></i></a>
+                 </div>
+            </div>
+           
+           
+        </div>
+      </section>
+     
+      <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+      </section>
+
+
+
+
+
+<script>
+    var MainImg=document.getElementById("MainImg");
+    var smalling=document.getElementsByClassName("small-img")
+
+    smalling[0].onclick = function(){
+        MainImg.src=smalling[0].src
+    }
+    smalling[1].onclick = function(){
+        MainImg.src=smalling[1].src
+    }
+    smalling[2].onclick = function(){
+        MainImg.src=smalling[2].src
+    }
+    smalling[3].onclick = function(){
+        MainImg.src=smalling[3].src
+    }
+</script>
+
+    <script src="agr.js"></script>
+</body>
+</html>        
+
